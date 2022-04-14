@@ -10,19 +10,6 @@ Some of it's db data is seeded from an external api. Some of it's data comes fro
 ruby '2.6.1'
 
 
-* System dependencies
-*gem 'open-uri'
-*gem 'rest-client', '~> 1.8'
-*gem 'json', '~> 1.8', '>= 1.8.3'
-*gem 'rack-cors'
-*gem 'active_model_serializers'
-*gem 'httparty', '~> 0.13.7'
-*gem 'dotenv-rails'
-*gem 'webpacker'
-*gem 'haml'
-*gem 'ransack'
-*gem 'jbuilder', '~> 2.5'
-
 * Configuration
 
 start the rails server with:
