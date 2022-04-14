@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bred_for: MyString
+  breed_group: MyString
+  height: MyString
+  weight: MyString
+  url: MyString
+  life_span: MyString
+  name: MyString
+  origin: MyString
+  temperament: MyString
+
+two:
+  bred_for: MyString
+  breed_group: MyString
+  height: MyString
+  weight: MyString
+  url: MyString
+  life_span: MyString
+  name: MyString
+  origin: MyString
+  temperament: MyString
