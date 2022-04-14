@@ -10,7 +10,10 @@ gem 'rack-cors'
 gem 'active_model_serializers'
 gem 'httparty', '~> 0.13.7'
 gem 'dotenv-rails'
-gem 'pg_search'
+gem 'webpacker'
+gem 'haml'
+gem 'ransack'
+gem 'jbuilder', '~> 2.5'
 
 
 

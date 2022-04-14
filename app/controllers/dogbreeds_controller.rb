@@ -13,6 +13,11 @@ class DogbreedsController < ApplicationController
     render json: @dogbreed
   end
 
+  def search
+    @dogbreeds = Dogbreed.where("name LIKE ?", "%" + params[:q] + "%")
+    render json: @dogbreeds
+  end
+
   # POST /dogbreeds
   def create
     @dogbreed = Dogbreed.new(dogbreed_params)
