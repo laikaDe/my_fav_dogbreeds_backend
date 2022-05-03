@@ -1,0 +1,2 @@
+class Dogtest < ApplicationRecord
+end

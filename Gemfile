@@ -14,6 +14,8 @@ gem 'webpacker'
 gem 'haml'
 gem 'ransack'
 gem 'jbuilder', '~> 2.5'
+gem "paperclip", "~> 5.0.0.beta1"
+
 
 
 
