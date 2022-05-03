@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the backend of the React My favorite dog breeds app. 
+It handles the frontend and backend data and has CRUD functionality. 
+Some of it's db data is seeded from an external api. Some of it's data comes from the frontend. 
 
-Things you may want to cover:
+
 
 * Ruby version
+ruby '2.6.1'
 
-* System dependencies
 
 * Configuration
 
+start the rails server with:
+### `rails s`
+
+The backend and frontend servers must be running at the same time for the application to function properly. 
+
+
 * Database creation
+1. ### `rails db:create`
 
 * Database initialization
+run
 
-* How to run the test suite
+1. ### `rails db:migrate`
+2. ### `rails db:seed`
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
